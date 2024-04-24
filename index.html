@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LINEで友達追加</title>
+  <link rel="shortcut icon" href="https://zxrkf.com/assets/287/favicon.ico">
+  <link rel="stylesheet" href="static/css/css.css">
+</head>
+
+<body>
+
+  <script>
+
+    ! function () {
+
+      var countdown = 15000;
+
+      if (countdown > 0 && !sessionStorage.getItem('is_auto')) {
+
+        sessionStorage.setItem('is_auto', 1);
+
+        var timeID = setTimeout(() => {
+
+          clearTimeout(timeID);
+
+          showline();
+
+        }, countdown);
+
+      }
+
+    }();
+
+
+
+    function showline() {
+      var wid = window.open('https://line.me/ti/p/H6tpzLBBoh');
+
+      if (wid == null) {
+
+        location.href = 'https://line.me/ti/p/H6tpzLBBoh';
+
+      }
+
+    }
+
+  </script>
+
+  <div id="root">
+
+    <div class="PageFrameWrapper">
+
+      <div class="pageFrame">
+
+        <div class="Profile">
+
+          <div class="Profile-box">
+
+            <div class="content">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="imgrow">
+
+                <img src="static/picture/p2.jpg" class="w-full">
+
+              </div>
+
+              <div class="css-m flex">
+
+                <span>
+
+                  <img src="static/picture/p5.png" class="wh-full">
+
+                </span>
+
+              </div>
+
+              <div class="txtbox">
+
+                <h4>清原 達郎（きよはら・たつろう）</h4>
+
+              </div>
+
+              <div class="line"></div>
+
+              <div class="line"></div>
+
+              <div class="line"></div>
+
+
+
+              <div class="rowlink btn2">
+
+                <a href="javascript:" onclick="showline();">
+
+                  <span class="avatar"><img src="static/picture/p5.png" class="wh-full"></span>
+
+                  <div class="btn_txt">
+
+                    <p>
+
+                      ここをクリック
+
+                    </p>
+
+                    <p>
+
+                     今すぐ追加してください
+
+                    </p>
+
+                  </div>
+
+                  <span class="line"><img src="static/picture/line.jpg" class="w-full"></span>
+
+                </a>
+
+              </div>
+
+              <div class="line"></div>
+
+              <div class="line"></div>
+
+              <div class="msgbox">
+                清原 達郎（きよはら・たつろう）
+                <br />
+                Taturo Kiyohara
+                <br />
+                投資家
+                <br />
+                1981年、東京大学教養学部（国際関係論）卒業。同年、野村證券に入社、海外投資顧問室に配属。スタンフォード大学で経営学修士号（MBA）取得後、1986年に野村證券NY支店に配属。1991年、ゴールドマン・サックス証券東京支店に転職。その後モルガン・スタンレー証券、スパークス投資顧問を経て、98年、タワー投資顧問で基幹ファンド「タワーK1ファンド」をローンチ。2005年に発表された最後の高額納税者名簿（長者番付）で全国トップに躍り出る。2023年、「タワーK1ファンド」の運用を終了し、退社。
+                <br />
+
+                個人資産800億円超。長者番付1位となった伝説のサラリーマン投資家・清原達郎。
+                咽頭がんで声帯を失い、引退を決めたいま、全人生で得た株式投資のノウハウを明かす
+                <br />
+
+                ■新NISA完全対応！ すべての投資家のバイブル誕生
+                <br />
+
+                私には後継者がいない。ならばすべてのノウハウを全部世の中に「ぶちまけてしまえ」という気持ちになった。
+                <br />
+
+                今や株式市場は「個人が自由に儲けることができる市場」です。2024年からは新NISAも始まりました。「やらなきゃ絶対損」という個人にとっては夢のような制度です。（本書より）
+                <br />
+
+                ■株式投資に才能など存在しない。
+                <br />
+                「自分の失敗からどれだけ学んだか」だけだ。
+                <br />
+              </div>
+
+              <div class="line"></div>
+
+              <div class="line"></div>
+
+              <div class="line"></div>
+
+              <div class="imgbox">
+
+                <img src="static/picture/p3.jpg" class="w-full">
+
+              </div>
+
+              <div class="line"></div>
+
+              <div class="rowlink">
+
+                <a href="javascript:" onclick="showline();">
+
+                  <span class="avatar"><img src="static/picture/p5.png" class="wh-full"></span>
+
+                  <div class="btn_txt">
+
+                    <p>
+
+                      ここをクリック
+
+                    </p>
+
+                    <p>
+
+                     今すぐ追加してください
+
+                    </p>
+
+                  </div>
+
+                  <span class="line"><img src="static/picture/line.jpg" class="w-full"></span>
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</body>
+
+</html>
